@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact Anji Solutions - Get in Touch for House Cleaning in Bengaluru</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="description"
+        content="Contact Anji Solutions for expert House Cleaning services in Bengaluru.  Get a free quote and book your house cleaning today.">
+    <meta name="keywords"
+        content="Anji Solutions, house cleaning, house cleaning services, Bengaluru, cleaning services near me, house cleaning bangalore, home cleaning, professional cleaning, cleaning company, contact, get a quote">
+
+    <!-- Open Graph Meta Tags for social media -->
+    <meta property="og:title" content="Anji Solutions - House Cleaning Experts in Bengaluru" />
+    <meta property="og:description"
+        content="Get in touch with Anji Solutions, Bengaluru's top House Cleaning service. Contact us for inquiries or book your service online. Professional and reliable cleaning solutions." />
+    <meta property="og:image" content="images/anji.png" />
+    <!-- Replace with the URL of a high-quality image representing your brand -->
+    <meta property="og:url" content="index.html" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Contact Anji Solutions | Get in Touch for House Cleaning in Bengaluru">
+    <meta name="twitter:description"
+        content="Get in touch with Anji Solutions, Bengaluru's top House Cleaning service. Contact us for inquiries or book your service online. Professional and reliable cleaning solutions.">
+    <meta name="twitter:image" content="images/anji.png">
+
+    <!-- Favicon and other head content -->
+    <meta name="theme-color" content="#6777ef" />
+    <link rel="canonical" href="index.html" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/anji.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/anji.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/anji.png">
+    <link rel="manifest" href="manifest.json">
+    <!-- Favicon -->
+    <link href="images/anji.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="../cdn.jsdelivr.net/npm/bootstrap-icons%401.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="phonfix/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="phonfix/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="phonfix/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="phonfix/css/combined.css" rel="stylesheet">
+
+    <style>
+        #logo-name {
+            position: relative;
+            padding-top: 10px;
+        }
+
+        #logo-name span {
+            color: #136CA8;
+            opacity: 0;
+            animation: fadeInLetter 0.5s forwards;
+        }
+
+        #logo-name img {
+            width: 10px;
+            height: 50px;
+        }
+
+        @keyframes fadeInLetter {
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Google Maps Styles */
+        .map-container {
+            position: relative;
+            overflow: hidden; /* Important to prevent map overflow */
+            padding-bottom: 56.25%; /* 16:9 aspect ratio (adjust as needed) */
+            height: 0;
+        }
+
+        .map-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        #map-canvas{
+  width:    100%;
+	height:   500px;
+	margin: 10px 10px 0;
+  border: 3px solid black;
+}
+    </style>    
+
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg bg-white border-top navbar-light shadow sticky-top p-0">
+            <a href="index.html" class="navbar-brand d-flex align-items-center text-center py-0 px-4 px-lg-5">
+                <img src="images/anji.png" alt="Anji Solutions Logo" width="400" height="">
+            </a>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="repair/services.html" class="nav-item nav-link">Services</a>
+                    <a href="blog-overview.html" class="nav-item nav-link">Blog</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <a href="contact.html#contactForm"
+                    class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Book Now<i
+                        class="fa fa-arrow-right ms-3"></i></a>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Floating Buttons (WhatsApp & Call) -->
+        <div class="float-container">
+            <div class="float-buttons">
+                <!-- WhatsApp Button -->
+                <a href="https://wa.me/9740913414" target="_blank" class="button whatsapp" title="WhatsApp">
+                    <i class="fa fa-whatsapp"></i>
+                    <span>+91 9740913414</span>
+                </a>
+                <!-- Call Button -->
+                <a href="tel:+919740913414" class="button call" title="Call">
+                    <i class="fa fa-phone"></i>
+                    <span>+91 9740913414</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Header Start -->
+        <div class="container-xxl py-3 bg-dark page-header mb-5">
+            <div class="container my-2 pt-5">
+                <div class="row">
+                    <h1 class="display-3 mb-3 text-white animated slideInDown">Contact Us</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb text-uppercase">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Contact Us</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+
+        <!-- Contact Section -->
+        <div class="container-xxl py-2">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="mb-5">Contact Anji Solutions</h1>
+                    <p class="mb-5">We're here to help! Contact us for all your house cleaning needs.</p>
+                </div>
+                <div class="row g-4">
+                    <!-- Contact Information Column -->
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="bg-light rounded p-5">
+                            <h4 class="mb-4">Get in Touch</h4>
+                            <p class="mb-4">If you have any questions or would like to request a quote, please feel
+                                free to contact us using the information below or by filling out the form.</p>
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fa fa-map-marker-alt fa-2x text-primary me-3"></i>
+                                <div class="d-flex flex-column">
+                                    <h5 class="mb-1">Our Address</h5>
+                                    <span>290 Dodda Banswadi, Ramamurthy Nagar main Rd, opp.BET College, Bengaluru,
+                                        Karnataka, 560043</span>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fa fa-envelope-open fa-2x text-primary me-3"></i>
+                                <div class="d-flex flex-column">
+                                    <h5 class="mb-1">Email</h5>
+                                    <span>info@anjisolutions.com</span>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="fa fa-phone-alt fa-2x text-primary me-3"></i>
+                                <div class="d-flex flex-column">
+                                    <h5 class="mb-1">Call Us</h5>
+                                    <span>+91 9740913414</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+<style>
+    #contactForm {
+  scroll-margin-top: 200px; /* Adjust depending on your header height */
+}
+</style>
+                    <!-- Contact Form & Map Column -->
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="border rounded p-5">
+                            <p class="text-center text-white bg-dark fs-6 mt-1 p-2">
+                                Book Your Home Cleaning and Make Your Home Sparkle!
+                            </p>
+                            <!-- Contact Form -->
+                            <form id="contactForm" action="contact-action.php" method="POST">
+    <div class="row g-3">
+        <!-- Name -->
+        <div class="col-md-6">
+            <div class="form-floating">
+                <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+                <label for="name">Your Name</label>
+            </div>
+        </div>
+
+        <!-- Email -->
+        <div class="col-md-6">
+            <div class="form-floating">
+                <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
+                <label for="email">Your Email</label>
+            </div>
+        </div>
+
+        <!-- Phone -->
+        <div class="col-md-6">
+            <div class="form-floating">
+                <input type="tel" class="form-control" id="phone" name="phone" placeholder="Your Phone" pattern="[0-9]{10}" title="Enter a valid 10-digit number" required>
+                <label for="phone">Your Phone</label>
+            </div>
+        </div>
+
+        <!-- Preferred Date -->
+        <div class="col-md-6">
+            <div class="form-floating">
+                <input type="date" class="form-control" id="date" name="date" placeholder="Preferred Date" required>
+                <label for="date">Preferred Service Date</label>
+            </div>
+        </div>
+
+        <!-- Service Type -->
+        <div class="col-12">
+            <div class="form-floating">
+                <select class="form-select" id="service" name="service" required>
+                    <option value="" disabled selected>Select a Service</option>
+                    <option value="House Service">House Service</option>
+                    <option value="Soil Work">Soil Work</option>
+                    <option value="House Demolition">House Demolition</option>
+                    <option value="Site Cleaning">Site Cleaning</option>
+                    <option value="Mori Cleaning">Mori Cleaning</option>
+                    <option value="Sanitary Block Clearing">Sanitary Block Clearing</option>
+                    <option value="Cement Work">Cement Work</option>
+                    <option value="Construction Work">Construction Work</option>
+                    <option value="Bathroom Cleaning">Bathroom Cleaning</option>
+                    <option value="General House Work">All Types of House Work</option>
+                </select>
+                <label for="service">Select Service Type</label>
+            </div>
+        </div>
+
+        <!-- Address -->
+        <div class="col-12">
+            <div class="form-floating">
+                <input type="text" class="form-control" id="address" name="address" placeholder="Your Address" required>
+                <label for="address">Your Full Address</label>
+            </div>
+        </div>
+
+        <!-- Message -->
+        <div class="col-12">
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a message here" id="message" name="message" style="height: 150px" required></textarea>
+                <label for="message">Any Special Instructions</label>
+            </div>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="col-12">
+            <button class="btn btn-primary w-100 py-3" type="submit">Book Service</button>
+        </div>
+    </div>
+</form>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+        <!-- Contact Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h1>Contact Anji Solutions</h1>
+            <p class="lead">We're here to help! Contact us for all your house cleaning needs.</p>
+        </div>
+
+        <div class="row g-2 justify-content-center">
+            <div class="col-lg-12">
+                <div class="rounded overflow-hidden" style="border: 1px solid #ddd;">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.397726045427!2d77.68137870000001!3d13.010325599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae110076b0538d%3A0xcbaecdd3f3feff20!2sAnji%20solutions!5e0!3m2!1sen!2sin!4v1749975441354!5m2!1sen!2sin" 
+                        width="100%" 
+                        height="400" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Contact End -->
+ 
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-white-50 footer wow fadeIn" data-wow-delay="0.1s">
+            <!-- Container for the heading and horizontal line -->
+
+            <div class="container py-3">
+                <div class="row mb-4">
+                    <div class="col-12">
+                        <h5 class="text-white mb-3">Our Services</h5>
+                        <hr class="text-white-50 mb-4">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 col-md-4 col-lg-4">
+                        <a class="btn btn-link text-white-50" href="#">House Service</a>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-4">
+                        <a class="btn btn-link text-white-50" href="#">Soil Work</a>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-4">
+                        <a class="btn btn-link text-white-50" href="#">House Demolition</a>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-4">
+                        <a class="btn btn-link text-white-50" href="#">Site Cleaning</a>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-4">
+                        <a class="btn btn-link text-white-50" href="#">Mori Cleaning</a>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-4">
+                        <a class="btn btn-link text-white-50" href="#">Sanitary Block Clearing</a>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-4">
+                        <a class="btn btn-link text-white-50" href="#">Cement Work</a>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-4">
+                        <a class="btn btn-link text-white-50" href="#">Construction Work</a>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-4">
+                        <a class="btn btn-link text-white-50" href="#">Bathroom Cleaning</a>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-4">
+                        <a class="btn btn-link text-white-50" href="#">All Types of House Work</a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="text-white-50">
+
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-white mb-4">About Us</h5>
+                        <p class="text-justify text-white-50">At Anji Solutions, we are dedicated to providing top-notch
+                            house cleaning services, ensuring a spotless and comfortable living environment for our
+                            clients. Our team of professionals is committed to delivering exceptional service.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-white mb-4">Quick Links</h5>
+                        <a class="btn btn-link text-white-50" href="about.html">About Us</a>
+                        <a class="btn btn-link text-white-50" href="contact.html">Contact Us</a>
+                        <a class="btn btn-link text-white-50" href="repair/servicese146.html?city=bangalore">Our
+                            Services</a>
+                        <a class="btn btn-link text-white-50" href="blog-overview.html">Blogs</a>
+                        <a class="btn btn-link text-white-50" href="privacy-policy.html">Privacy Policy</a>
+                        <a class="btn btn-link text-white-50" href="terms-conditions.html">Terms &
+                            Conditions</a>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-white mb-4">Contact</h5>
+                        <p class="mb-2 text-white-50"><i class="fa fa-map-marker-alt me-3"></i>1st cross Vivekananda
+                            road Ramamurthy Nagar krishnarajapuram Bangalore 560016</p>
+                        <p class="mb-2 text-white-50"><i class="fa fa-phone-alt me-3"></i>+91 9740913414</p>
+                        <p class="mb-2 text-white-50"><i class="fa fa-envelope me-3"></i>info@anjisolutions.com</p>
+                        <div class="d-flex pt-2 social-icons">
+                            <!-- Instagram -->
+                            <a class="btn btn-social btn-instagram" target="_blank"
+                                href="https://www.instagram.com/anjisolutions?utm_source=qr&igsh=ODZqbWNsZTI2c2s1">
+                                <img src="phonfix/img/instagram.png" alt="Instagram">
+                            </a>
+                            <!-- Facebook -->
+                            <a class="btn btn-social btn-facebook" target="_blank"
+                                href="https://www.facebook.com/profile.php?id=61577694020438">
+                                <img src="phonfix/img/facebook.png" alt="Facebook">
+                            </a>
+                            <!-- YouTube -->
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            Copyright © 2025
+                            <a class="border-bottom" href="index.html" rel="noopener" target="_blank">
+                                Anji Solutions
+                            </a> | house services best solutions
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="index.html">Home</a> Powered by
+                                <a class="border-bottom"
+                                    href="https://www.instagram.com/web_designer_guru?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                                    rel="noopener" target="_blank">
+                                    Web Innovations
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- JavaScript Libraries -->
+        <script src="../code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="../cdn.jsdelivr.net/npm/bootstrap%405.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="../kit.fontawesome.com/9bbb309abe.js" crossorigin="anonymous"></script>
+        <script src="phonfix/lib/wow/wow.min.js"></script>
+        <script src="phonfix/lib/easing/easing.min.js"></script>
+        <script src="phonfix/lib/waypoints/waypoints.min.js"></script>
+        <script src="phonfix/lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="../cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="phonfix/js/combinedMin.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                const letters = document.querySelectorAll('#logo-name span');
+                letters.forEach((letter, index) => {
+                    letter.style.animationDelay = `${index * 0.5}s`; // Delay increases for each letter
+                });
+            });
+        </script>
+        <script>
+window.onload = function () {
+    const params = new URLSearchParams(window.location.search);
+    if (params.get("success") === "1") {
+        alert("✅ Your request was submitted successfully!");
+    } else if (params.get("error") === "1") {
+        alert("❌ Please fill all required fields correctly.");
+    } else if (params.get("error") === "db") {
+        alert("❌ Server error. Please try again later.");
+    } else if (params.get("error") === "mail") {
+        alert("⚠️ Saved successfully, but email failed to send.");
+    }
+};
+</script>
+<script>
+    window.onload = function () {
+        // Get today's date in YYYY-MM-DD format
+        const today = new Date().toISOString().split('T')[0];
+        // Set it as the min attribute of the date input
+        document.getElementById("date").setAttribute("min", today);
+    };
+</script>
+
+
+        
+        <script>
+            // Toggle visibility of floating buttons
+            document.getElementById('mainButton').addEventListener('click', function () {
+                const container = document.querySelector('.float-container');
+                container.classList.toggle('active');
+            });
+        </script>
+        <style>
+            @media (max-width: 767.98px) {
+                .footer h5 {
+                    font-size: 14px;
+                }
+
+                .footer a {
+                    font-size: 10px;
+                }
+
+                .footer .row.g-5 {
+                    row-gap: 0;
+                }
+            }
+
+            .footer hr {
+                border-top: 1px solid rgba(255, 255, 255, 0.5);
+            }
+        </style>
+</body>
+
+</html>
